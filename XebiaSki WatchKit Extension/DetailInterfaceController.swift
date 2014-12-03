@@ -24,20 +24,11 @@ class DetailInterfaceController: WKInterfaceController {
     }
     
     override func willActivate() {
-        savePreference()
         if let skiResort = self.skiResort? {
             self.photoDownloadManager?.retrievePhoto({ (image) -> () in
                 self.photoImageView.setImage(image)
             })
             setTitle(skiResort.name)
-        }
-    }
-    
-    func savePreference() {
-        if let skiResort = self.skiResort? {
-            let archivedResort = NSKeyedArchiver.archivedDataWithRootObject(skiResort)
-            NSUserDefaults.standardUserDefaults().setObject(archivedResort, forKey: "selection")
-            NSUserDefaults.standardUserDefaults().synchronize()
         }
     }
 }
