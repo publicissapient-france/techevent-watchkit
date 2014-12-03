@@ -12,18 +12,7 @@
 		42EA59521A2F13A500C0DD80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42EA59501A2F13A500C0DD80 /* Main.storyboard */; };
 		42EA59541A2F13A500C0DD80 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42EA59531A2F13A500C0DD80 /* Images.xcassets */; };
 		42EA59571A2F13A500C0DD80 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42EA59551A2F13A500C0DD80 /* LaunchScreen.xib */; };
-		42EA59631A2F13A500C0DD80 /* XebiaSkiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EA59621A2F13A500C0DD80 /* XebiaSkiTests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		42EA595D1A2F13A500C0DD80 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 42EA593F1A2F13A400C0DD80 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 42EA59461A2F13A500C0DD80;
-			remoteInfo = XebiaSki;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		42EA59471A2F13A500C0DD80 /* XebiaSki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XebiaSki.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -33,20 +22,10 @@
 		42EA59511A2F13A500C0DD80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		42EA59531A2F13A500C0DD80 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		42EA59561A2F13A500C0DD80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		42EA595C1A2F13A500C0DD80 /* XebiaSkiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XebiaSkiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		42EA59611A2F13A500C0DD80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		42EA59621A2F13A500C0DD80 /* XebiaSkiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XebiaSkiTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		42EA59441A2F13A500C0DD80 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		42EA59591A2F13A500C0DD80 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -60,7 +39,6 @@
 			isa = PBXGroup;
 			children = (
 				42EA59491A2F13A500C0DD80 /* XebiaSki */,
-				42EA595F1A2F13A500C0DD80 /* XebiaSkiTests */,
 				42EA59481A2F13A500C0DD80 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,7 +47,6 @@
 			isa = PBXGroup;
 			children = (
 				42EA59471A2F13A500C0DD80 /* XebiaSki.app */,
-				42EA595C1A2F13A500C0DD80 /* XebiaSkiTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,23 +72,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		42EA595F1A2F13A500C0DD80 /* XebiaSkiTests */ = {
-			isa = PBXGroup;
-			children = (
-				42EA59621A2F13A500C0DD80 /* XebiaSkiTests.swift */,
-				42EA59601A2F13A500C0DD80 /* Supporting Files */,
-			);
-			path = XebiaSkiTests;
-			sourceTree = "<group>";
-		};
-		42EA59601A2F13A500C0DD80 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				42EA59611A2F13A500C0DD80 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,24 +92,6 @@
 			productReference = 42EA59471A2F13A500C0DD80 /* XebiaSki.app */;
 			productType = "com.apple.product-type.application";
 		};
-		42EA595B1A2F13A500C0DD80 /* XebiaSkiTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 42EA59691A2F13A500C0DD80 /* Build configuration list for PBXNativeTarget "XebiaSkiTests" */;
-			buildPhases = (
-				42EA59581A2F13A500C0DD80 /* Sources */,
-				42EA59591A2F13A500C0DD80 /* Frameworks */,
-				42EA595A1A2F13A500C0DD80 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				42EA595E1A2F13A500C0DD80 /* PBXTargetDependency */,
-			);
-			name = XebiaSkiTests;
-			productName = XebiaSkiTests;
-			productReference = 42EA595C1A2F13A500C0DD80 /* XebiaSkiTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -161,10 +103,6 @@
 				TargetAttributes = {
 					42EA59461A2F13A500C0DD80 = {
 						CreatedOnToolsVersion = 6.2;
-					};
-					42EA595B1A2F13A500C0DD80 = {
-						CreatedOnToolsVersion = 6.2;
-						TestTargetID = 42EA59461A2F13A500C0DD80;
 					};
 				};
 			};
@@ -182,7 +120,6 @@
 			projectRoot = "";
 			targets = (
 				42EA59461A2F13A500C0DD80 /* XebiaSki */,
-				42EA595B1A2F13A500C0DD80 /* XebiaSkiTests */,
 			);
 		};
 /* End PBXProject section */
@@ -198,13 +135,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		42EA595A1A2F13A500C0DD80 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -217,23 +147,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		42EA59581A2F13A500C0DD80 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				42EA59631A2F13A500C0DD80 /* XebiaSkiTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		42EA595E1A2F13A500C0DD80 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 42EA59461A2F13A500C0DD80 /* XebiaSki */;
-			targetProxy = 42EA595D1A2F13A500C0DD80 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		42EA59501A2F13A500C0DD80 /* Main.storyboard */ = {
@@ -352,40 +266,6 @@
 			};
 			name = Release;
 		};
-		42EA596A1A2F13A500C0DD80 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = XebiaSkiTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XebiaSki.app/XebiaSki";
-			};
-			name = Debug;
-		};
-		42EA596B1A2F13A500C0DD80 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = XebiaSkiTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XebiaSki.app/XebiaSki";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -403,14 +283,6 @@
 			buildConfigurations = (
 				42EA59671A2F13A500C0DD80 /* Debug */,
 				42EA59681A2F13A500C0DD80 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		42EA59691A2F13A500C0DD80 /* Build configuration list for PBXNativeTarget "XebiaSkiTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				42EA596A1A2F13A500C0DD80 /* Debug */,
-				42EA596B1A2F13A500C0DD80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
