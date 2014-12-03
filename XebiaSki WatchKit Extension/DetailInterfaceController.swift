@@ -10,6 +10,7 @@ import WatchKit
 import XebiaSkiFramework
 
 class DetailInterfaceController: WKInterfaceController {
+
     @IBOutlet weak var photoImageView: WKInterfaceImage!
     
     private let photoDownloadManager: PhotoDownloadManager?
