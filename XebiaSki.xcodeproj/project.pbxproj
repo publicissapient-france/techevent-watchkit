@@ -25,6 +25,9 @@
 		42EA59AD1A2F160000C0DD80 /* XebiaSkiFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EA59AC1A2F160000C0DD80 /* XebiaSkiFrameworkTests.swift */; };
 		42EA59B01A2F160000C0DD80 /* XebiaSkiFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42EA59991A2F160000C0DD80 /* XebiaSkiFramework.framework */; };
 		42EA59B11A2F160000C0DD80 /* XebiaSkiFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 42EA59991A2F160000C0DD80 /* XebiaSkiFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		42EA59BA1A2F183700C0DD80 /* PhotoDownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EA59B91A2F183700C0DD80 /* PhotoDownloadManager.swift */; };
+		42EA59BC1A2F189100C0DD80 /* SkiResort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EA59BB1A2F189100C0DD80 /* SkiResort.swift */; };
+		42EA59BE1A2F18A700C0DD80 /* SkiResortDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EA59BD1A2F18A700C0DD80 /* SkiResortDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -114,6 +117,9 @@
 		42EA59A31A2F160000C0DD80 /* XebiaSkiFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XebiaSkiFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42EA59AB1A2F160000C0DD80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42EA59AC1A2F160000C0DD80 /* XebiaSkiFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XebiaSkiFrameworkTests.swift; sourceTree = "<group>"; };
+		42EA59B91A2F183700C0DD80 /* PhotoDownloadManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDownloadManager.swift; sourceTree = "<group>"; };
+		42EA59BB1A2F189100C0DD80 /* SkiResort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkiResort.swift; sourceTree = "<group>"; };
+		42EA59BD1A2F18A700C0DD80 /* SkiResortDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkiResortDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -247,6 +253,9 @@
 			children = (
 				42EA599D1A2F160000C0DD80 /* XebiaSkiFramework.h */,
 				42EA599B1A2F160000C0DD80 /* Supporting Files */,
+				42EA59B91A2F183700C0DD80 /* PhotoDownloadManager.swift */,
+				42EA59BB1A2F189100C0DD80 /* SkiResort.swift */,
+				42EA59BD1A2F18A700C0DD80 /* SkiResortDataSource.swift */,
 			);
 			path = XebiaSkiFramework;
 			sourceTree = "<group>";
@@ -498,6 +507,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42EA59BE1A2F18A700C0DD80 /* SkiResortDataSource.swift in Sources */,
+				42EA59BC1A2F189100C0DD80 /* SkiResort.swift in Sources */,
+				42EA59BA1A2F183700C0DD80 /* PhotoDownloadManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -717,6 +729,7 @@
 		42EA59B31A2F160000C0DD80 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -731,6 +744,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -740,6 +754,7 @@
 		42EA59B41A2F160000C0DD80 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
