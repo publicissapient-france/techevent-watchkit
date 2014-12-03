@@ -41,5 +41,9 @@ class InterfaceController: WKInterfaceController {
         NSLog("%@ did deactivate", self)
         super.didDeactivate()
     }
+    
+    override func contextForSegueWithIdentifier(segueIdentifier: String, inTable table: WKInterfaceTable, rowIndex: Int) -> AnyObject? {
+        return self.dataSource[rowIndex]
+    }
 
 }

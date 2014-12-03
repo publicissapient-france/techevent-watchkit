@@ -20,6 +20,7 @@
                                     </group>
                                     <connections>
                                         <outlet property="titleLabel" destination="2hi-l6-rGl" id="RNd-Ya-Ftn"/>
+                                        <segue destination="GL2-eW-8mp" kind="push" identifier="ShowDetail" id="6ce-6m-WgT"/>
                                     </connections>
                                 </tableRow>
                             </items>
@@ -31,6 +32,24 @@
                 </controller>
             </objects>
             <point key="canvasLocation" x="164" y="217"/>
+        </scene>
+        <!--Detail Interface Controller-->
+        <scene sceneID="agy-nM-INX">
+            <objects>
+                <controller id="GL2-eW-8mp" customClass="DetailInterfaceController" customModule="XebiaSki_WatchKit_Extension">
+                    <items>
+                        <group width="1" height="1" alignment="left" hasDetent="YES" id="ETd-sd-NCY">
+                            <items>
+                                <imageView width="1" height="1" alignment="left" id="0Oa-Kn-bZY"/>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="photoImageView" destination="0Oa-Kn-bZY" id="qRB-W8-t0n"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="371" y="217"/>
         </scene>
         <!--Glance Interface Controller-->
         <scene sceneID="rjY-Ar-IMT">

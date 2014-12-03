@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4294ED801A2F1D920009EEF4 /* SkiResortTableRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4294ED7F1A2F1D920009EEF4 /* SkiResortTableRowController.swift */; };
+		4294ED841A2F24310009EEF4 /* DetailInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4294ED831A2F24310009EEF4 /* DetailInterfaceController.swift */; };
 		42EA594D1A2F13A500C0DD80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EA594C1A2F13A500C0DD80 /* AppDelegate.swift */; };
 		42EA594F1A2F13A500C0DD80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EA594E1A2F13A500C0DD80 /* ViewController.swift */; };
 		42EA59521A2F13A500C0DD80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42EA59501A2F13A500C0DD80 /* Main.storyboard */; };
@@ -96,6 +97,7 @@
 
 /* Begin PBXFileReference section */
 		4294ED7F1A2F1D920009EEF4 /* SkiResortTableRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkiResortTableRowController.swift; sourceTree = "<group>"; };
+		4294ED831A2F24310009EEF4 /* DetailInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailInterfaceController.swift; sourceTree = "<group>"; };
 		42EA59471A2F13A500C0DD80 /* XebiaSki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XebiaSki.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42EA594B1A2F13A500C0DD80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42EA594C1A2F13A500C0DD80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -221,6 +223,7 @@
 				42EA597B1A2F150E00C0DD80 /* Images.xcassets */,
 				42EA59751A2F150E00C0DD80 /* Supporting Files */,
 				4294ED7F1A2F1D920009EEF4 /* SkiResortTableRowController.swift */,
+				4294ED831A2F24310009EEF4 /* DetailInterfaceController.swift */,
 			);
 			path = "XebiaSki WatchKit Extension";
 			sourceTree = "<group>";
@@ -503,6 +506,7 @@
 			files = (
 				42EA59781A2F150E00C0DD80 /* InterfaceController.swift in Sources */,
 				4294ED801A2F1D920009EEF4 /* SkiResortTableRowController.swift in Sources */,
+				4294ED841A2F24310009EEF4 /* DetailInterfaceController.swift in Sources */,
 				42EA597A1A2F150E00C0DD80 /* GlanceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
