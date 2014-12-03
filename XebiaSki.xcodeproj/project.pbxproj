@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42EA594D1A2F13A500C0DD80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EA594C1A2F13A500C0DD80 /* AppDelegate.swift */; };
+		42EA594F1A2F13A500C0DD80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EA594E1A2F13A500C0DD80 /* ViewController.swift */; };
+		42EA59521A2F13A500C0DD80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42EA59501A2F13A500C0DD80 /* Main.storyboard */; };
+		42EA59541A2F13A500C0DD80 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42EA59531A2F13A500C0DD80 /* Images.xcassets */; };
+		42EA59571A2F13A500C0DD80 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42EA59551A2F13A500C0DD80 /* LaunchScreen.xib */; };
+		42EA59631A2F13A500C0DD80 /* XebiaSkiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EA59621A2F13A500C0DD80 /* XebiaSkiTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42EA595D1A2F13A500C0DD80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42EA593F1A2F13A400C0DD80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42EA59461A2F13A500C0DD80;
+			remoteInfo = XebiaSki;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		42EA59471A2F13A500C0DD80 /* XebiaSki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XebiaSki.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42EA594B1A2F13A500C0DD80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42EA594C1A2F13A500C0DD80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		42EA594E1A2F13A500C0DD80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		42EA59511A2F13A500C0DD80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42EA59531A2F13A500C0DD80 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		42EA59561A2F13A500C0DD80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		42EA595C1A2F13A500C0DD80 /* XebiaSkiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XebiaSkiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42EA59611A2F13A500C0DD80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42EA59621A2F13A500C0DD80 /* XebiaSkiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XebiaSkiTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42EA59441A2F13A500C0DD80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42EA59591A2F13A500C0DD80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42EA593E1A2F13A400C0DD80 = {
+			isa = PBXGroup;
+			children = (
+				42EA59491A2F13A500C0DD80 /* XebiaSki */,
+				42EA595F1A2F13A500C0DD80 /* XebiaSkiTests */,
+				42EA59481A2F13A500C0DD80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42EA59481A2F13A500C0DD80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42EA59471A2F13A500C0DD80 /* XebiaSki.app */,
+				42EA595C1A2F13A500C0DD80 /* XebiaSkiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42EA59491A2F13A500C0DD80 /* XebiaSki */ = {
+			isa = PBXGroup;
+			children = (
+				42EA594C1A2F13A500C0DD80 /* AppDelegate.swift */,
+				42EA594E1A2F13A500C0DD80 /* ViewController.swift */,
+				42EA59501A2F13A500C0DD80 /* Main.storyboard */,
+				42EA59531A2F13A500C0DD80 /* Images.xcassets */,
+				42EA59551A2F13A500C0DD80 /* LaunchScreen.xib */,
+				42EA594A1A2F13A500C0DD80 /* Supporting Files */,
+			);
+			path = XebiaSki;
+			sourceTree = "<group>";
+		};
+		42EA594A1A2F13A500C0DD80 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42EA594B1A2F13A500C0DD80 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		42EA595F1A2F13A500C0DD80 /* XebiaSkiTests */ = {
+			isa = PBXGroup;
+			children = (
+				42EA59621A2F13A500C0DD80 /* XebiaSkiTests.swift */,
+				42EA59601A2F13A500C0DD80 /* Supporting Files */,
+			);
+			path = XebiaSkiTests;
+			sourceTree = "<group>";
+		};
+		42EA59601A2F13A500C0DD80 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42EA59611A2F13A500C0DD80 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42EA59461A2F13A500C0DD80 /* XebiaSki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42EA59661A2F13A500C0DD80 /* Build configuration list for PBXNativeTarget "XebiaSki" */;
+			buildPhases = (
+				42EA59431A2F13A500C0DD80 /* Sources */,
+				42EA59441A2F13A500C0DD80 /* Frameworks */,
+				42EA59451A2F13A500C0DD80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XebiaSki;
+			productName = XebiaSki;
+			productReference = 42EA59471A2F13A500C0DD80 /* XebiaSki.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42EA595B1A2F13A500C0DD80 /* XebiaSkiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42EA59691A2F13A500C0DD80 /* Build configuration list for PBXNativeTarget "XebiaSkiTests" */;
+			buildPhases = (
+				42EA59581A2F13A500C0DD80 /* Sources */,
+				42EA59591A2F13A500C0DD80 /* Frameworks */,
+				42EA595A1A2F13A500C0DD80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42EA595E1A2F13A500C0DD80 /* PBXTargetDependency */,
+			);
+			name = XebiaSkiTests;
+			productName = XebiaSkiTests;
+			productReference = 42EA595C1A2F13A500C0DD80 /* XebiaSkiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42EA593F1A2F13A400C0DD80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Xebia IT Architechts";
+				TargetAttributes = {
+					42EA59461A2F13A500C0DD80 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					42EA595B1A2F13A500C0DD80 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 42EA59461A2F13A500C0DD80;
+					};
+				};
+			};
+			buildConfigurationList = 42EA59421A2F13A500C0DD80 /* Build configuration list for PBXProject "XebiaSki" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42EA593E1A2F13A400C0DD80;
+			productRefGroup = 42EA59481A2F13A500C0DD80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42EA59461A2F13A500C0DD80 /* XebiaSki */,
+				42EA595B1A2F13A500C0DD80 /* XebiaSkiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42EA59451A2F13A500C0DD80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42EA59521A2F13A500C0DD80 /* Main.storyboard in Resources */,
+				42EA59571A2F13A500C0DD80 /* LaunchScreen.xib in Resources */,
+				42EA59541A2F13A500C0DD80 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42EA595A1A2F13A500C0DD80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42EA59431A2F13A500C0DD80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42EA594F1A2F13A500C0DD80 /* ViewController.swift in Sources */,
+				42EA594D1A2F13A500C0DD80 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42EA59581A2F13A500C0DD80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42EA59631A2F13A500C0DD80 /* XebiaSkiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42EA595E1A2F13A500C0DD80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42EA59461A2F13A500C0DD80 /* XebiaSki */;
+			targetProxy = 42EA595D1A2F13A500C0DD80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		42EA59501A2F13A500C0DD80 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42EA59511A2F13A500C0DD80 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		42EA59551A2F13A500C0DD80 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42EA59561A2F13A500C0DD80 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42EA59641A2F13A500C0DD80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		42EA59651A2F13A500C0DD80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42EA59671A2F13A500C0DD80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XebiaSki/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		42EA59681A2F13A500C0DD80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XebiaSki/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		42EA596A1A2F13A500C0DD80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = XebiaSkiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XebiaSki.app/XebiaSki";
+			};
+			name = Debug;
+		};
+		42EA596B1A2F13A500C0DD80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = XebiaSkiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XebiaSki.app/XebiaSki";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42EA59421A2F13A500C0DD80 /* Build configuration list for PBXProject "XebiaSki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42EA59641A2F13A500C0DD80 /* Debug */,
+				42EA59651A2F13A500C0DD80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42EA59661A2F13A500C0DD80 /* Build configuration list for PBXNativeTarget "XebiaSki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42EA59671A2F13A500C0DD80 /* Debug */,
+				42EA59681A2F13A500C0DD80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		42EA59691A2F13A500C0DD80 /* Build configuration list for PBXNativeTarget "XebiaSkiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42EA596A1A2F13A500C0DD80 /* Debug */,
+				42EA596B1A2F13A500C0DD80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42EA593F1A2F13A400C0DD80 /* Project object */;
+}
