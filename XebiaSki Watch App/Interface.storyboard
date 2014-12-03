@@ -40,7 +40,7 @@
                     <items>
                         <group width="1" height="1" alignment="left" hasDetent="YES" id="ETd-sd-NCY">
                             <items>
-                                <imageView width="1" height="1" alignment="left" contentMode="scaleAspectFill" id="0Oa-Kn-bZY"/>
+                                <imageView width="1" height="1" alignment="left" id="0Oa-Kn-bZY"/>
                             </items>
                         </group>
                     </items>
@@ -56,32 +56,10 @@
             <objects>
                 <glanceController spacing="0.0" id="Sv0-Ai-Zie" customClass="GlanceController" customModule="XebiaSki_Watch_App" customModuleProvider="target">
                     <items>
-                        <group alignment="left" id="gv7-I2-MZq">
-                            <items>
-                                <dateLabel width="1" height="1" alignment="left" textAlignment="center" lineHeight="1" id="z5t-zd-Lnm">
-                                    <fontDescription key="font" type="system" pointSize="32"/>
-                                    <dateFormatterStyle key="timeStyle" none="YES" short="YES"/>
-                                </dateLabel>
-                            </items>
-                        </group>
-                        <group alignment="left" contentMode="scaleAspectFill" id="eew-Gs-W6Y">
-                            <items>
-                                <group width="1" height="40" alignment="left" verticalAlignment="bottom" layout="vertical" spacing="0.0" id="F1G-Zg-n9B">
-                                    <items>
-                                        <label alignment="left" verticalAlignment="bottom" text="New-York" textAlignment="left" id="sMB-qb-3oz"/>
-                                        <dateLabel alignment="left" verticalAlignment="bottom" textAlignment="left" minimumScaleFactor="0.30000000000000016" format="cccc dd" id="qSD-xS-6yO">
-                                            <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
-                                        </dateLabel>
-                                    </items>
-                                </group>
-                            </items>
-                        </group>
+                        <group alignment="left" id="gv7-I2-MZq"/>
+                        <group alignment="left" id="eew-Gs-W6Y"/>
                     </items>
                     <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="14"/>
-                    <connections>
-                        <outlet property="mainGroup" destination="eew-Gs-W6Y" id="vJJ-O9-Qhh"/>
-                        <outlet property="titleLabel" destination="sMB-qb-3oz" id="Zvr-qJ-a18"/>
-                    </connections>
                 </glanceController>
             </objects>
             <point key="canvasLocation" x="164" y="514"/>
