@@ -12,7 +12,7 @@
                     <items>
                         <table alignment="left" layout="vertical" id="i9v-YJ-3xM">
                             <items>
-                                <tableRow id="qeR-nS-zQw" customClass="SkiResortTableRowController" customModule="XebiaSki_WatchKit_Extension">
+                                <tableRow identifier="SkiResortTableRow" id="qeR-nS-zQw" customClass="SkiResortTableRowController" customModule="XebiaSki_WatchKit_Extension">
                                     <group key="rootItem" width="1" alignment="left" id="eqn-3U-eJm">
                                         <items>
                                             <label alignment="left" text="Label" id="2hi-l6-rGl"/>
