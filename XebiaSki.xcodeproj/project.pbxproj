@@ -20,6 +20,11 @@
 		42EA59871A2F150E00C0DD80 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42EA59861A2F150E00C0DD80 /* Interface.storyboard */; };
 		42EA59891A2F150E00C0DD80 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42EA59881A2F150E00C0DD80 /* Images.xcassets */; };
 		42EA598C1A2F150E00C0DD80 /* XebiaSki WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 42EA59701A2F150E00C0DD80 /* XebiaSki WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		42EA599E1A2F160000C0DD80 /* XebiaSkiFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 42EA599D1A2F160000C0DD80 /* XebiaSkiFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42EA59A41A2F160000C0DD80 /* XebiaSkiFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42EA59991A2F160000C0DD80 /* XebiaSkiFramework.framework */; };
+		42EA59AD1A2F160000C0DD80 /* XebiaSkiFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EA59AC1A2F160000C0DD80 /* XebiaSkiFrameworkTests.swift */; };
+		42EA59B01A2F160000C0DD80 /* XebiaSkiFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42EA59991A2F160000C0DD80 /* XebiaSkiFramework.framework */; };
+		42EA59B11A2F160000C0DD80 /* XebiaSkiFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 42EA59991A2F160000C0DD80 /* XebiaSkiFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +42,27 @@
 			remoteGlobalIDString = 42EA596F1A2F150E00C0DD80;
 			remoteInfo = "XebiaSki WatchKit Extension";
 		};
+		42EA59A51A2F160000C0DD80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42EA593F1A2F13A400C0DD80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42EA59981A2F160000C0DD80;
+			remoteInfo = XebiaSkiFramework;
+		};
+		42EA59A71A2F160000C0DD80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42EA593F1A2F13A400C0DD80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42EA59461A2F13A500C0DD80;
+			remoteInfo = XebiaSki;
+		};
+		42EA59AE1A2F160000C0DD80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42EA593F1A2F13A400C0DD80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42EA59981A2F160000C0DD80;
+			remoteInfo = XebiaSkiFramework;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -49,6 +75,17 @@
 				42EA598C1A2F150E00C0DD80 /* XebiaSki WatchKit Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42EA59B51A2F160000C0DD80 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				42EA59B11A2F160000C0DD80 /* XebiaSkiFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -71,6 +108,12 @@
 		42EA59851A2F150E00C0DD80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42EA59861A2F150E00C0DD80 /* Interface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
 		42EA59881A2F150E00C0DD80 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		42EA59991A2F160000C0DD80 /* XebiaSkiFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XebiaSkiFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42EA599C1A2F160000C0DD80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42EA599D1A2F160000C0DD80 /* XebiaSkiFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XebiaSkiFramework.h; sourceTree = "<group>"; };
+		42EA59A31A2F160000C0DD80 /* XebiaSkiFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XebiaSkiFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42EA59AB1A2F160000C0DD80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42EA59AC1A2F160000C0DD80 /* XebiaSkiFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XebiaSkiFrameworkTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +121,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42EA59B01A2F160000C0DD80 /* XebiaSkiFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +130,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				42EA59731A2F150E00C0DD80 /* WatchKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42EA59951A2F160000C0DD80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42EA59A01A2F160000C0DD80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42EA59A41A2F160000C0DD80 /* XebiaSkiFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +157,8 @@
 				42EA59491A2F13A500C0DD80 /* XebiaSki */,
 				42EA59741A2F150E00C0DD80 /* XebiaSki WatchKit Extension */,
 				42EA59831A2F150E00C0DD80 /* XebiaSki Watch App */,
+				42EA599A1A2F160000C0DD80 /* XebiaSkiFramework */,
+				42EA59A91A2F160000C0DD80 /* XebiaSkiFrameworkTests */,
 				42EA59711A2F150E00C0DD80 /* Frameworks */,
 				42EA59481A2F13A500C0DD80 /* Products */,
 			);
@@ -109,6 +170,8 @@
 				42EA59471A2F13A500C0DD80 /* XebiaSki.app */,
 				42EA59701A2F150E00C0DD80 /* XebiaSki WatchKit Extension.appex */,
 				42EA597F1A2F150E00C0DD80 /* XebiaSki Watch App.app */,
+				42EA59991A2F160000C0DD80 /* XebiaSkiFramework.framework */,
+				42EA59A31A2F160000C0DD80 /* XebiaSkiFrameworkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -179,7 +242,52 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		42EA599A1A2F160000C0DD80 /* XebiaSkiFramework */ = {
+			isa = PBXGroup;
+			children = (
+				42EA599D1A2F160000C0DD80 /* XebiaSkiFramework.h */,
+				42EA599B1A2F160000C0DD80 /* Supporting Files */,
+			);
+			path = XebiaSkiFramework;
+			sourceTree = "<group>";
+		};
+		42EA599B1A2F160000C0DD80 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42EA599C1A2F160000C0DD80 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		42EA59A91A2F160000C0DD80 /* XebiaSkiFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				42EA59AC1A2F160000C0DD80 /* XebiaSkiFrameworkTests.swift */,
+				42EA59AA1A2F160000C0DD80 /* Supporting Files */,
+			);
+			path = XebiaSkiFrameworkTests;
+			sourceTree = "<group>";
+		};
+		42EA59AA1A2F160000C0DD80 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42EA59AB1A2F160000C0DD80 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		42EA59961A2F160000C0DD80 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42EA599E1A2F160000C0DD80 /* XebiaSkiFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		42EA59461A2F13A500C0DD80 /* XebiaSki */ = {
@@ -190,11 +298,13 @@
 				42EA59441A2F13A500C0DD80 /* Frameworks */,
 				42EA59451A2F13A500C0DD80 /* Resources */,
 				42EA59931A2F150E00C0DD80 /* Embed App Extensions */,
+				42EA59B51A2F160000C0DD80 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				42EA598B1A2F150E00C0DD80 /* PBXTargetDependency */,
+				42EA59AF1A2F160000C0DD80 /* PBXTargetDependency */,
 			);
 			name = XebiaSki;
 			productName = XebiaSki;
@@ -234,6 +344,43 @@
 			productReference = 42EA597F1A2F150E00C0DD80 /* XebiaSki Watch App.app */;
 			productType = "com.apple.product-type.application.watchapp";
 		};
+		42EA59981A2F160000C0DD80 /* XebiaSkiFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42EA59B21A2F160000C0DD80 /* Build configuration list for PBXNativeTarget "XebiaSkiFramework" */;
+			buildPhases = (
+				42EA59941A2F160000C0DD80 /* Sources */,
+				42EA59951A2F160000C0DD80 /* Frameworks */,
+				42EA59961A2F160000C0DD80 /* Headers */,
+				42EA59971A2F160000C0DD80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XebiaSkiFramework;
+			productName = XebiaSkiFramework;
+			productReference = 42EA59991A2F160000C0DD80 /* XebiaSkiFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		42EA59A21A2F160000C0DD80 /* XebiaSkiFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42EA59B61A2F160000C0DD80 /* Build configuration list for PBXNativeTarget "XebiaSkiFrameworkTests" */;
+			buildPhases = (
+				42EA599F1A2F160000C0DD80 /* Sources */,
+				42EA59A01A2F160000C0DD80 /* Frameworks */,
+				42EA59A11A2F160000C0DD80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42EA59A61A2F160000C0DD80 /* PBXTargetDependency */,
+				42EA59A81A2F160000C0DD80 /* PBXTargetDependency */,
+			);
+			name = XebiaSkiFrameworkTests;
+			productName = XebiaSkiFrameworkTests;
+			productReference = 42EA59A31A2F160000C0DD80 /* XebiaSkiFrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -251,6 +398,13 @@
 					};
 					42EA597E1A2F150E00C0DD80 = {
 						CreatedOnToolsVersion = 6.2;
+					};
+					42EA59981A2F160000C0DD80 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					42EA59A21A2F160000C0DD80 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 42EA59461A2F13A500C0DD80;
 					};
 				};
 			};
@@ -270,6 +424,8 @@
 				42EA59461A2F13A500C0DD80 /* XebiaSki */,
 				42EA596F1A2F150E00C0DD80 /* XebiaSki WatchKit Extension */,
 				42EA597E1A2F150E00C0DD80 /* XebiaSki Watch App */,
+				42EA59981A2F160000C0DD80 /* XebiaSkiFramework */,
+				42EA59A21A2F160000C0DD80 /* XebiaSkiFrameworkTests */,
 			);
 		};
 /* End PBXProject section */
@@ -303,6 +459,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		42EA59971A2F160000C0DD80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42EA59A11A2F160000C0DD80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -324,6 +494,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		42EA59941A2F160000C0DD80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42EA599F1A2F160000C0DD80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42EA59AD1A2F160000C0DD80 /* XebiaSkiFrameworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -336,6 +521,21 @@
 			isa = PBXTargetDependency;
 			target = 42EA596F1A2F150E00C0DD80 /* XebiaSki WatchKit Extension */;
 			targetProxy = 42EA598A1A2F150E00C0DD80 /* PBXContainerItemProxy */;
+		};
+		42EA59A61A2F160000C0DD80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42EA59981A2F160000C0DD80 /* XebiaSkiFramework */;
+			targetProxy = 42EA59A51A2F160000C0DD80 /* PBXContainerItemProxy */;
+		};
+		42EA59A81A2F160000C0DD80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42EA59461A2F13A500C0DD80 /* XebiaSki */;
+			targetProxy = 42EA59A71A2F160000C0DD80 /* PBXContainerItemProxy */;
+		};
+		42EA59AF1A2F160000C0DD80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42EA59981A2F160000C0DD80 /* XebiaSkiFramework */;
+			targetProxy = 42EA59AE1A2F160000C0DD80 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -514,6 +714,80 @@
 			};
 			name = Release;
 		};
+		42EA59B31A2F160000C0DD80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = XebiaSkiFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		42EA59B41A2F160000C0DD80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = XebiaSkiFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		42EA59B71A2F160000C0DD80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = XebiaSkiFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XebiaSki.app/XebiaSki";
+			};
+			name = Debug;
+		};
+		42EA59B81A2F160000C0DD80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = XebiaSkiFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XebiaSki.app/XebiaSki";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -547,6 +821,22 @@
 			buildConfigurations = (
 				42EA59911A2F150E00C0DD80 /* Debug */,
 				42EA59921A2F150E00C0DD80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		42EA59B21A2F160000C0DD80 /* Build configuration list for PBXNativeTarget "XebiaSkiFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42EA59B31A2F160000C0DD80 /* Debug */,
+				42EA59B41A2F160000C0DD80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		42EA59B61A2F160000C0DD80 /* Build configuration list for PBXNativeTarget "XebiaSkiFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42EA59B71A2F160000C0DD80 /* Debug */,
+				42EA59B81A2F160000C0DD80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
