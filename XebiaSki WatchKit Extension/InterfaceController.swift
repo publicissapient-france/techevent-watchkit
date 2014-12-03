@@ -8,16 +8,26 @@
 
 import WatchKit
 import Foundation
+import XebiaSkiFramework
 
 
 class InterfaceController: WKInterfaceController {
 
+    private var dataSource = SkiResortDataSource()
+    @IBOutlet weak var mainTable: WKInterfaceTable!
+    
     override init(context: AnyObject?) {
-        // Initialize variables here.
         super.init(context: context)
         
-        // Configure interface objects here.
-        NSLog("%@ init", self)
+        reloadTableData()
+    }
+    
+    func reloadTableData() {
+        mainTable.setNumberOfRows(self.dataSource.count, withRowType: "SkiResortTableRow")
+        for var index = 0; index < self.dataSource.count; ++index {
+            let row = mainTable.rowControllerAtIndex(index) as SkiResortTableRowController
+            row.configureWithSkiResort(self.dataSource[index])
+        }
     }
 
     override func willActivate() {
